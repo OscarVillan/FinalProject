@@ -38,16 +38,17 @@ div.navbar {
 
 }
 
-div.nav {
-    font-size: 2vw;
+button.nav {
+    font-size: 1.75vw;
     text-align: center;
     background-color: rgb(127, 242, 246);
-    height: 3vw;
-    width: calc(10%);
-    padding-left: 13px;
-    padding-right: 13px;
+    height: 3.8vw;
+    width: calc(20%);
+    padding-left: 20px;
+    padding-right: 20px;
     align-items: center;
     font-weight: bolder;
+    
 
 }
 
@@ -57,4 +58,34 @@ div.navbar {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+div.courselist {
+    border: 2px dotted red;
+    display: flex;
+    font-size:3vw;
+
+}
+div#courses {
+    text-align: center;
+    font-weight: bold;
+    border: 2px dotted red;
+    padding-top:50px;
+    padding-right:10px;
+    padding-bottom:30px;
+    font-size:4vw;
+}
+div {
+    border: 2px dotted red;
+}
+p {
+    border: 2px dotted red;
+}
+div.courseaddresslist {
+    display:flex;
+    justify-content: space-around;
+    
+}
+div.address {
+    font-size:2vw;
+    width:20%;
 }
