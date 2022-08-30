@@ -1,0 +1,39 @@
+body {
+    font-family: "Gill Sans", "Sans Serif";
+    font-size: 30pt;
+    background-color: rgba(123, 189, 250, 0.853);
+    margin-left:5vw;
+}
+div.logo {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+img.logo {
+    width: 45vw;
+}
+div.navbar {
+    background-color: rgb(66, 167, 243);
+    width: 90%;
+    margin-left: 5vw;
+
+}
+
+div.nav {
+    font-size: 2vw;
+    text-align: center;
+    background-color: rgb(127, 242, 246);
+    height: 3vw;
+    width: calc(10%);
+    padding-left: 13px;
+    padding-right: 13px;
+    align-items: center;
+
+}
+
+div.navbar {
+    height: 6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
