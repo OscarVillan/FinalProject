@@ -39,11 +39,11 @@ div.navbar {
 }
 
 button.nav {
-    font-size: 1.75vw;
+    font-size: 1.35vw;
     text-align: center;
     background-color: rgb(127, 242, 246);
-    height: 3.8vw;
-    width: calc(20%);
+    height: 3.2vw;
+    width: calc(15%);
     padding-left: 20px;
     padding-right: 20px;
     align-items: center;
