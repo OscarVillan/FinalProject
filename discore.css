@@ -17,7 +17,7 @@ p {
 img#homepagecontent {
     margin-left: 5vw;
     margin-right: 5vw;
-    width: 85vw;
+    width: 81vw;
 
 }
 
@@ -64,15 +64,14 @@ div.courselist {
     border: 2px dotted red;
     display: flex;
     font-size:3vw;
+    justify-content: space-around;
 
 }
 div#courses {
     text-align: center;
     font-weight: bold;
     border: 2px dotted red;
-    padding-top:50px;
-    padding-right:10px;
-    padding-bottom:30px;
+    padding-bottom:2vw;
     font-size:4vw;
 }
 div {
@@ -131,5 +130,8 @@ img#gcpic {
     margin-right:5vw;
 
 }
+img.thumbnail {
+    width:20vw;
 
+}
 
