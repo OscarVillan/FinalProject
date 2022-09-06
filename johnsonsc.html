@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="discore.css">
     <title>Johnson st</title>
-    <script src="discore.js" defer></script>
+    <script src="johnsonsc.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -36,7 +36,6 @@
             <th>Hole 7</th>
             <th>Hole 8</th>
             <th>Hole 9</th>
-            <th>Total</th>
             <th>Hole 10</th>
             <th>Hole 11</th>
             <th>Hole 12</th>
@@ -58,8 +57,7 @@
             <td class="parbar">3</td>
             <td class="parbar">3</td>
             <td class="parbar">3</td>
-            <td class="parbar">3/3/4</td>
-            <td></td>
+            <td class="parbar">4</td>
             <td class="parbar">3</td>
             <td class="parbar">3</td>
             <td class="parbar">3</td>
@@ -68,103 +66,109 @@
             <td class="parbar">3</td>
             <td class="parbar">3</td>
             <td class="parbar">3</td>
-            <td class="parbar">3/4/4</td>
+            <td class="parbar">3</td>
             <td></td>
 
         </tr>
         <tr>
             <td>Player:<input type="text" class="scorebox" placeholder="I.N."></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
+            <td><input type="number" class="scorebox" id="a1"></td>
+            <td><input type="number" class="scorebox" id="a2"></td>
+            <td><input type="number" class="scorebox" id="a3"></td>
+            <td><input type="number" class="scorebox" id="a4"></td>
+            <td><input type="number" class="scorebox" id="a5"></td>
+            <td><input type="number" class="scorebox" id="a6"></td>
+            <td><input type="number" class="scorebox" id="a7"></td>
+            <td><input type="number" class="scorebox" id="a8"></td>
+            <td><input type="number" class="scorebox" id="a9"></td>
+            <td><input type="number" class="scorebox" id="a10"></td>
+            <td><input type="number" class="scorebox" id="a11"></td>
+            <td><input type="number" class="scorebox" id="a12"></td>
+            <td><input type="number" class="scorebox" id="a13"></td>
+            <td><input type="number" class="scorebox" id="a14"></td>
+            <td><input type="number" class="scorebox" id="a15"></td>
+            <td><input type="number" class="scorebox" id="a16"></td>
+            <td><input type="number" class="scorebox" id="a17"></td>
+            <td><input type="number" class="scorebox" id="a18"></td>
+            <td>
+                <div id="total1"></div>
+            </td>
         </tr>
         <tr>
             <td>Player:<input type="text" class="scorebox" placeholder="I.N."></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
+            <td><input type="number" class="scorebox" id="b1"></td>
+            <td><input type="number" class="scorebox" id="b2"></td>
+            <td><input type="number" class="scorebox" id="b3"></td>
+            <td><input type="number" class="scorebox" id="b4"></td>
+            <td><input type="number" class="scorebox" id="b5"></td>
+            <td><input type="number" class="scorebox" id="b6"></td>
+            <td><input type="number" class="scorebox" id="b7"></td>
+            <td><input type="number" class="scorebox" id="b8"></td>
+            <td><input type="number" class="scorebox" id="b9"></td>
+            <td><input type="number" class="scorebox" id="b10"></td>
+            <td><input type="number" class="scorebox" id="b11"></td>
+            <td><input type="number" class="scorebox" id="b12"></td>
+            <td><input type="number" class="scorebox" id="b13"></td>
+            <td><input type="number" class="scorebox" id="b14"></td>
+            <td><input type="number" class="scorebox" id="b15"></td>
+            <td><input type="number" class="scorebox" id="b16"></td>
+            <td><input type="number" class="scorebox" id="b17"></td>
+            <td><input type="number" class="scorebox" id="b18"></td>
+            <td>
+                <div id="total2"></div>
+            </td>
         </tr>
         <tr>
             <td>Player:<input type="text" class="scorebox" placeholder="I.N."></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
+            <td><input type="number" class="scorebox" id="c1"></td>
+            <td><input type="number" class="scorebox" id="c2"></td>
+            <td><input type="number" class="scorebox" id="c3"></td>
+            <td><input type="number" class="scorebox" id="c4"></td>
+            <td><input type="number" class="scorebox" id="c5"></td>
+            <td><input type="number" class="scorebox" id="c6"></td>
+            <td><input type="number" class="scorebox" id="c7"></td>
+            <td><input type="number" class="scorebox" id="c8"></td>
+            <td><input type="number" class="scorebox" id="c9"></td>
+            <td><input type="number" class="scorebox" id="c10"></td>
+            <td><input type="number" class="scorebox" id="c11"></td>
+            <td><input type="number" class="scorebox" id="c12"></td>
+            <td><input type="number" class="scorebox" id="c13"></td>
+            <td><input type="number" class="scorebox" id="c14"></td>
+            <td><input type="number" class="scorebox" id="c15"></td>
+            <td><input type="number" class="scorebox" id="c16"></td>
+            <td><input type="number" class="scorebox" id="c17"></td>
+            <td><input type="number" class="scorebox" id="c18"></td>
+            <td>
+                <div id="total3"></div>
+            </td>
         </tr>
         <tr>
             <td>Player:<input type="text" class="scorebox" placeholder="I.N."></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
-            <td><input type="text" class="scorebox"></td>
+            <td><input type="number" class="scorebox" id="d1"></td>
+            <td><input type="number" class="scorebox" id="d2"></td>
+            <td><input type="number" class="scorebox" id="d3"></td>
+            <td><input type="number" class="scorebox" id="d4"></td>
+            <td><input type="number" class="scorebox" id="d5"></td>
+            <td><input type="number" class="scorebox" id="d6"></td>
+            <td><input type="number" class="scorebox" id="d7"></td>
+            <td><input type="number" class="scorebox" id="d8"></td>
+            <td><input type="number" class="scorebox" id="d9"></td>
+            <td><input type="number" class="scorebox" id="d10"></td>
+            <td><input type="number" class="scorebox" id="d11"></td>
+            <td><input type="number" class="scorebox" id="d12"></td>
+            <td><input type="number" class="scorebox" id="d13"></td>
+            <td><input type="number" class="scorebox" id="d14"></td>
+            <td><input type="number" class="scorebox" id="d15"></td>
+            <td><input type="number" class="scorebox" id="d16"></td>
+            <td><input type="number" class="scorebox" id="d17"></td>
+            <td><input type="number" class="scorebox" id="d18"></td>
+            <td>
+                <div id="total4"></div>
+            </td>
         </tr>
     </table>
+    <div id="totalbutton"><button id="button">Total</button></div>
+
 </body>
 
 </html>
