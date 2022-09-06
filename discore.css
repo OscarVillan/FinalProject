@@ -9,7 +9,6 @@ body {
 p {
     margin-left: 5vw;
     margin-right: 5vw;
-    font-size: .39em;
 
     /* text-indent: 0vw; */
 }
@@ -24,10 +23,13 @@ img#homepagecontent {
 div.logo {
     margin-left: 5vw;
     margin-right: 5vw;
+    
 }
 
 img.logo {
     width: 45vw;
+    margin-left:35%
+
 }
 
 div.navbar {
@@ -41,14 +43,14 @@ div.navbar {
 button.nav {
     font-size: 1.35vw;
     text-align: center;
-    background-color: rgb(127, 242, 246);
+    background-color: rgb(127, 242, 246, .9);
     height: 3.2vw;
     width: calc(15%);
     padding-left: 20px;
     padding-right: 20px;
     align-items: center;
     font-weight: bolder;
-    
+
 
 }
 
@@ -58,80 +60,157 @@ div.navbar {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-bottom:8%;
+    margin-bottom: 2vw;
 }
+
 div.courselist {
-    border: 2px dotted red;
+    /* border: 2px dotted red; */
     display: flex;
-    font-size:3vw;
+    font-size: 3vw;
     justify-content: space-around;
 
 }
+
 div#courses {
     text-align: center;
     font-weight: bold;
-    border: 2px dotted red;
-    padding-bottom:2vw;
-    font-size:4vw;
+    /* border: 2px dotted red; */
+    padding-bottom: 2vw;
+    font-size: 4vw;
 }
-div {
-    border: 2px dotted red;
-}
-p {
-    border: 2px dotted red;
-}
+
 div.courseaddresslist {
-    display:flex;
+    display: flex;
     justify-content: space-around;
-    
+
 }
+
 div.address {
-    font-size:2vw;
-    width:20%;
+    font-size: 2vw;
+    width: 20%;
 }
+
 img.logo {
-    width:25vw;
+    width: 25vw;
     align-items: center;
 }
+
 table#scorecard {
     font-size: .35em;
 }
-table, th, td {
+
+table,
+th,
+td {
     border: 2px solid white;
     border-collapse: collapse;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
-    
+
 }
-th, td {
+
+th,
+td {
     background-color: #96D4D4;
     text-align: center;
 }
+
 input.score {
-    width:3vw;
-    border:none;
+    width: 3vw;
+    border: none;
     background-color: #96D4D4;
 }
+
 input.scorebox {
     border: none;
     background-color: #96D4D4;
-    width:3vw;
+    width: 3vw;
 }
+
 div.scl {
     text-align: center;
     font-weight: bold;
-    padding-bottom:2vw;
+    padding-bottom: 2vw;
 }
+
 img#gcpic {
-    width:81vw;
+    width: 81vw;
     text-align: center;
     padding-bottom: 2vw;
     margin-left: 5vw;
+    margin-right: 5vw;
+
+}
+
+img.thumbnail {
+    width: 20vw;
+
+}
+
+p.title {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    /* background-color: rgb(127, 242, 246, .9); */
+    width: fit-content;
+
+}
+
+div.rule {
+    /* background-color: rgb(66, 167, 243); */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.rulelist {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgb(66, 167, 243);
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+}
+div#therules {
+    /* background-color: rgb(66, 167, 243); */
+    margin-left:5vw;
+    margin-right:5vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left:5vw;
+    padding-right: 5vw;
+    /* padding-bottom:5vw; */
+}
+div.rules {
+    font-size: .5em;
+    text-indent: 6vw;
+    text-align: center;
+    /* background-color: rgb(127, 242, 246, .9); */
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
+}
+div.rulelabel {
+    /* background-color: rgb(127, 242, 246, .9); */
+    text-decoration: underline;
+    width:68.5vw;
+    font-size: 1em;
+    margin-left:5vw;
     margin-right:5vw;
 
+    
 }
-img.thumbnail {
-    width:20vw;
-
+div {
+    border:2px dotted red;
 }
-
+div.boxrule {
+    margin-top:5vw;
+    margin-right: 5vw;
+    margin-left:5vw;
+    background-color: rgb(127, 242, 246, .9);
+    margin-bottom:5vw;
+}
