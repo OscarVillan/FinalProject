@@ -208,7 +208,7 @@ div.rulelabel {
 }
 
 div {
-    border: 2px dotted red;
+    /* border: 2px dotted red; */
 }
 
 div.boxrule {
@@ -229,4 +229,7 @@ div#totalbutton {
     display: flex;
     justify-content: center;
     margin-top: 2vw;
+}
+td.par {
+    text-align: left;
 }
