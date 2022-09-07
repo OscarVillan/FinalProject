@@ -230,3 +230,11 @@ div#totalbutton {
 td.par {
     text-align: left;
 }
+div.coursetext {
+    font-size: .5em;
+}
+div.notice {
+    font-size: .3em;
+    text-align: center;
+    color:red;
+}
