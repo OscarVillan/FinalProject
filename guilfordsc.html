@@ -24,7 +24,7 @@
         <button class="nav" onclick="window.location.href='rules.html'">Rules</button>
     </div>
     <div class="scl">Guilford College</div>
-    <table id="scorecard">
+    <table class="scorecard" id="desktopscgc">
         <tr>
             <th>Date:<input class="score" type="text" placeholder="M/DD"></th>
             <th>Hole 1</th>
@@ -71,103 +71,310 @@
 
         </tr>
         <tr>
+            <td class="par">Distance</td>
+            <td class="distbar">205&#146;</td>
+            <td class="distbar">170&#146;</td>
+            <td class="distbar">215&#146;</td>
+            <td class="distbar">190&#146;</td>
+            <td class="distbar">270&#146;</td>
+            <td class="distbar">160&#146;</td>
+            <td class="distbar">180&#146;</td>
+            <td class="distbar">230&#146;</td>
+            <td class="distbar">455&#146;</td>
+            <td class="distbar">320&#146;</td>
+            <td class="distbar">250&#146;</td>
+            <td class="distbar">215&#146;</td>
+            <td class="distbar">200&#146;</td>
+            <td class="distbar">190&#146;</td>
+            <td class="distbar">315&#146;</td>
+            <td class="distbar">290&#146;</td>
+            <td class="distbar">185&#146;</td>
+            <td class="distbar">310&#146;</td>
+            <td>4350&#146;</td>
+
+        </tr>
+        <tr>
             <td>Player:<input type="text" class="scorebox" placeholder="I.N."></td>
-            <td><input type="number" class="scorebox" id="a1" value="0"></td>
-            <td><input type="number" class="scorebox" id="a2" value="0"></td>
-            <td><input type="number" class="scorebox" id="a3" value="0"></td>
-            <td><input type="number" class="scorebox" id="a4" value="0"></td>
-            <td><input type="number" class="scorebox" id="a5" value="0"></td>
-            <td><input type="number" class="scorebox" id="a6" value="0"></td>
-            <td><input type="number" class="scorebox" id="a7" value="0"></td>
-            <td><input type="number" class="scorebox" id="a8" value="0"></td>
-            <td><input type="number" class="scorebox" id="a9" value="0"></td>
-            <td><input type="number" class="scorebox" id="a10" value="0"></td>
-            <td><input type="number" class="scorebox" id="a11" value="0"></td>
-            <td><input type="number" class="scorebox" id="a12" value="0"></td>
-            <td><input type="number" class="scorebox" id="a13" value="0"></td>
-            <td><input type="number" class="scorebox" id="a14" value="0"></td>
-            <td><input type="number" class="scorebox" id="a15" value="0"></td>
-            <td><input type="number" class="scorebox" id="a16" value="0"></td>
-            <td><input type="number" class="scorebox" id="a17" value="0"></td>
-            <td><input type="number" class="scorebox" id="a18" value="0"></td>
+            <td><input type="number" class="scorebox" id="a1" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="a2" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="a3" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="a4" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="a5" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="a6" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="a7" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="a8" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="a9" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="a10" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="a11" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="a12" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="a13" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="a14" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="a15" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="a16" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="a17" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="a18" value="0" onfocus="this.value=''"></td>
             <td>
                 <div id="total1"></div>
             </td>
         </tr>
         <tr>
             <td>Player:<input type="text" class="scorebox" placeholder="I.N."></td>
-            <td><input type="number" class="scorebox" id="b1" value="0"></td>
-            <td><input type="number" class="scorebox" id="b2" value="0"></td>
-            <td><input type="number" class="scorebox" id="b3" value="0"></td>
-            <td><input type="number" class="scorebox" id="b4" value="0"></td>
-            <td><input type="number" class="scorebox" id="b5" value="0"></td>
-            <td><input type="number" class="scorebox" id="b6" value="0"></td>
-            <td><input type="number" class="scorebox" id="b7" value="0"></td>
-            <td><input type="number" class="scorebox" id="b8" value="0"></td>
-            <td><input type="number" class="scorebox" id="b9" value="0"></td>
-            <td><input type="number" class="scorebox" id="b10" value="0"></td>
-            <td><input type="number" class="scorebox" id="b11" value="0"></td>
-            <td><input type="number" class="scorebox" id="b12" value="0"></td>
-            <td><input type="number" class="scorebox" id="b13" value="0"></td>
-            <td><input type="number" class="scorebox" id="b14" value="0"></td>
-            <td><input type="number" class="scorebox" id="b15" value="0"></td>
-            <td><input type="number" class="scorebox" id="b16" value="0"></td>
-            <td><input type="number" class="scorebox" id="b17" value="0"></td>
-            <td><input type="number" class="scorebox" id="b18" value="0"></td>
+            <td><input type="number" class="scorebox" id="b1" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="b2" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="b3" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="b4" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="b5" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="b6" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="b7" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="b8" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="b9" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="b10" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="b11" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="b12" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="b13" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="b14" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="b15" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="b16" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="b17" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="b18" value="0" onfocus="this.value=''"></td>
             <td>
                 <div id="total2"></div>
             </td>
         </tr>
         <tr>
             <td>Player:<input type="text" class="scorebox" placeholder="I.N."></td>
-            <td><input type="number" class="scorebox" id="c1" value="0"></td>
-            <td><input type="number" class="scorebox" id="c2" value="0"></td>
-            <td><input type="number" class="scorebox" id="c3" value="0"></td>
-            <td><input type="number" class="scorebox" id="c4" value="0"></td>
-            <td><input type="number" class="scorebox" id="c5" value="0"></td>
-            <td><input type="number" class="scorebox" id="c6" value="0"></td>
-            <td><input type="number" class="scorebox" id="c7" value="0"></td>
-            <td><input type="number" class="scorebox" id="c8" value="0"></td>
-            <td><input type="number" class="scorebox" id="c9" value="0"></td>
-            <td><input type="number" class="scorebox" id="c10" value="0"></td>
-            <td><input type="number" class="scorebox" id="c11" value="0"></td>
-            <td><input type="number" class="scorebox" id="c12" value="0"></td>
-            <td><input type="number" class="scorebox" id="c13" value="0"></td>
-            <td><input type="number" class="scorebox" id="c14" value="0"></td>
-            <td><input type="number" class="scorebox" id="c15" value="0"></td>
-            <td><input type="number" class="scorebox" id="c16" value="0"></td>
-            <td><input type="number" class="scorebox" id="c17" value="0"></td>
-            <td><input type="number" class="scorebox" id="c18" value="0"></td>
+            <td><input type="number" class="scorebox" id="c1" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="c2" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="c3" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="c4" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="c5" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="c6" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="c7" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="c8" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="c9" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="c10" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="c11" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="c12" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="c13" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="c14" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="c15" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="c16" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="c17" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="c18" value="0" onfocus="this.value=''"></td>
             <td>
                 <div id="total3"></div>
             </td>
         </tr>
         <tr>
             <td>Player:<input type="text" class="scorebox" placeholder="I.N."></td>
-            <td><input type="number" class="scorebox" id="d1" value="0"></td>
-            <td><input type="number" class="scorebox" id="d2" value="0"></td>
-            <td><input type="number" class="scorebox" id="d3" value="0"></td>
-            <td><input type="number" class="scorebox" id="d4" value="0"></td>
-            <td><input type="number" class="scorebox" id="d5" value="0"></td>
-            <td><input type="number" class="scorebox" id="d6" value="0"></td>
-            <td><input type="number" class="scorebox" id="d7" value="0"></td>
-            <td><input type="number" class="scorebox" id="d8" value="0"></td>
-            <td><input type="number" class="scorebox" id="d9" value="0"></td>
-            <td><input type="number" class="scorebox" id="d10" value="0"></td>
-            <td><input type="number" class="scorebox" id="d11" value="0"></td>
-            <td><input type="number" class="scorebox" id="d12" value="0"></td>
-            <td><input type="number" class="scorebox" id="d13" value="0"></td>
-            <td><input type="number" class="scorebox" id="d14" value="0"></td>
-            <td><input type="number" class="scorebox" id="d15" value="0"></td>
-            <td><input type="number" class="scorebox" id="d16" value="0"></td>
-            <td><input type="number" class="scorebox" id="d17" value="0"></td>
-            <td><input type="number" class="scorebox" id="d18" value="0"></td>
+            <td><input type="number" class="scorebox" id="d1" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="d2" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="d3" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="d4" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="d5" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="d6" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="d7" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="d8" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="d9" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="d10" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="d11" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="d12" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="d13" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="d14" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="d15" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="d16" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="d17" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="d18" value="0" onfocus="this.value=''"></td>
             <td>
                 <div id="total4"></div>
             </td>
         </tr>
     </table>
-    <div class="notice">please note, all holes not thrown must have a value of 0 in order for total to be accurate.</div>
+    <table class="scorecard" id="mobileguilfordsc">
+        <tr>
+            <th>Date:<input class="score" type="text" placeholder="M/DD"></th>
+            <th>Player</th>
+            <th>Player</th>
+            <th>Player</th>
+            <th>Player</th>
+            <th>Par</th>
+            <th>Distance</th>
+
+        </tr>
+        <tr>
+            <td>Hole 1</td>
+            <td><input type="number" class="scorebox" id="e1" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f1" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g1" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h1" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="3"></td>
+            <td>205&#146;</td>
+        </tr>
+        <tr>
+            <td>Hole 2</td>
+            <td><input type="number" class="scorebox" id="e2" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f2" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g2" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h2" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="3"></td>
+            <td>170&#146;</td>
+        </tr>
+        <tr>
+            <td>Hole 3</td>
+            <td><input type="number" class="scorebox" id="e3" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f3" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g3" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h3" value="0" onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="3"></td>
+            <td>215&#146;</td>
+        </tr>
+        <tr>
+            <td>Hole 4</td>
+            <td><input type="number" class="scorebox" id="e4" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f4" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g4" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h4" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="3"></td>
+            <td>190&#146;</td>
+        </tr>
+        <tr>
+            <td>Hole 5</td>
+            <td><input type="number" class="scorebox" id="e5" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f5" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g5" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h5" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="3"></td>
+            <td>270&#146;</td>
+        </tr>
+        <tr>
+            <td>Hole 6</td>
+            <td><input type="number" class="scorebox" id="e6" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f6" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g6" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h6" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="3"></td>
+            <td>160&#146;</td>
+        </tr>
+        <tr>
+            <td>Hole 7</td>
+            <td><input type="number" class="scorebox" id="e7" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f7" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g7" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h7" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="3"></td>
+            <td>180&#146;</td>
+        </tr>
+        <tr>
+            <td>Hole 8</td>
+            <td><input type="number" class="scorebox" id="e8" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f8" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g8" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h8" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="3"></td>
+            <td>230&#146;</td>
+        </tr>
+        <tr>
+            <td>Hole 9</td>
+            <td><input type="number" class="scorebox" id="e9" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f9" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g9" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h9" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="4"></td>
+            <td>455&#146;</td>
+        </tr>
+        <tr>
+            <td>Hole 10</td>
+            <td><input type="number" class="scorebox" id="e10" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f10" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g10" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h10" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="3"></td>
+            <td>320&#146;</td>
+        </tr>
+        <tr>
+            <td>Hole 11</td>
+            <td><input type="number" class="scorebox" id="e11" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f11" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g11" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h11" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="3"></td>
+            <td>250&#146;</td>
+        </tr>
+        <tr>
+            <td>Hole 12</td>
+            <td><input type="number" class="scorebox" id="e12" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f12" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g12" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h12" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="3"></td>
+            <td>215&#146;</td>
+        </tr>
+        <tr>
+            <td>Hole 13</td>
+            <td><input type="number" class="scorebox" id="e13" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f13" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g13" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h13" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="3"></td>
+            <td>200&#146;</td>
+        </tr>
+        <tr>
+            <td>Hole 14</td>
+            <td><input type="number" class="scorebox" id="e14" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f14" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g14" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h14" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="3"></td>
+            <td>190&#146;</td>
+        </tr>
+        <tr>
+            <td>Hole 15</td>
+            <td><input type="number" class="scorebox" id="e15" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f15" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g15" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h15" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="3"></td>
+            <td>315&#146;</td>
+        </tr>
+        <tr>
+            <td>Hole 16</td>
+            <td><input type="number" class="scorebox" id="e16" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f16" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g16" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h16" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="3"></td>
+            <td>290&#146;</td>
+
+        </tr>
+        <tr>
+            <td>Hole 17</td>
+            <td><input type="number" class="scorebox" id="e17" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f17" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g17" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h17" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="3"></td>
+            <td>185&#146;</td>
+        </tr>
+        <tr>
+            <td>Hole 18</td>
+            <td><input type="number" class="scorebox" id="e18" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="f18" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="g18" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" id="h18" value="0"onfocus="this.value=''"></td>
+            <td><input type="number" class="scorebox" value="3"></td>
+            <td>310&#146;</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td><div id="total5"></div></td>
+            <td><div id="total6"></div></td>
+            <td><div id="total7"></div></td>
+            <td><div id="total8"></div></td>
+            <td><input type="number" class="scorebox" value="56"></td>
+            <td>4350&#146;</td>
+        </tr>
+    </table>
+
     <div id="totalbutton"><button id="button">Total</button></div>
 
 </body>

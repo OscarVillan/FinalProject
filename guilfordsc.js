@@ -52,6 +52,98 @@ let c15 = document.querySelector('#c15');
 let c16 = document.querySelector('#c16');
 let c17 = document.querySelector('#c17');
 let c18 = document.querySelector('#c18');
+let d1 = document.querySelector('#d1');
+let d2 = document.querySelector('#d2');
+let d3= document.querySelector('#d3');
+let d4 = document.querySelector('#d4');
+let d5 = document.querySelector('#d5');
+let d6 = document.querySelector('#d6');
+let d7 = document.querySelector('#d7');
+let d8 = document.querySelector('#d8');
+let d9 = document.querySelector('#d9');
+let d10 = document.querySelector('#d10');
+let d11 = document.querySelector('#d11');
+let d12 = document.querySelector('#d12');
+let d13 = document.querySelector('#d13');
+let d14 = document.querySelector('#d14');
+let d15 = document.querySelector('#d15');
+let d16 = document.querySelector('#d16');
+let d17 = document.querySelector('#d17');
+let d18 = document.querySelector('#d18');
+let e1 = document.querySelector('#e1');
+let e2 = document.querySelector('#e2');
+let e3 = document.querySelector('#e3');
+let e4 = document.querySelector('#e4');
+let e5 = document.querySelector('#e5');
+let e6 = document.querySelector('#e6');
+let e7 = document.querySelector('#e7');
+let e8 = document.querySelector('#e8');
+let e9 = document.querySelector('#e9');
+let e10 = document.querySelector('#e10');
+let e11 = document.querySelector('#e11');
+let e12 = document.querySelector('#e12');
+let e13 = document.querySelector('#e13');
+let e14 = document.querySelector('#e14');
+let e15 = document.querySelector('#e15');
+let e16 = document.querySelector('#e16');
+let e17 = document.querySelector('#e17');
+let e18 = document.querySelector('#e18');
+let f1 = document.querySelector('#f1');
+let f2 = document.querySelector('#f2');
+let f3 = document.querySelector('#f3');
+let f4 = document.querySelector('#f4');
+let f5 = document.querySelector('#f5');
+let f6 = document.querySelector('#f6');
+let f7 = document.querySelector('#f7');
+let f8 = document.querySelector('#f8');
+let f9 = document.querySelector('#f9');
+let f10 = document.querySelector('#f10');
+let f11 = document.querySelector('#f11');
+let f12 = document.querySelector('#f12');
+let f13 = document.querySelector('#f13');
+let f14 = document.querySelector('#f14');
+let f15 = document.querySelector('#f15');
+let f16 = document.querySelector('#f16');
+let f17 = document.querySelector('#f17');
+let f18 = document.querySelector('#f18');
+let g1 = document.querySelector('#g1');
+let g2 = document.querySelector('#g2');
+let g3 = document.querySelector('#g3');
+let g4 = document.querySelector('#g4');
+let g5 = document.querySelector('#g5');
+let g6 = document.querySelector('#g6');
+let g7 = document.querySelector('#g7');
+let g8 = document.querySelector('#g8');
+let g9 = document.querySelector('#g9');
+let g10 = document.querySelector('#g10');
+let g11 = document.querySelector('#g11');
+let g12 = document.querySelector('#g12');
+let g13 = document.querySelector('#g13');
+let g14 = document.querySelector('#g14');
+let g15 = document.querySelector('#g15');
+let g16 = document.querySelector('#g16');
+let g17 = document.querySelector('#g17');
+let g18 = document.querySelector('#g18');
+let h1 = document.querySelector('#h1');
+let h2 = document.querySelector('#h2');
+let h3 = document.querySelector('#h3');
+let h4 = document.querySelector('#h4');
+let h5 = document.querySelector('#h5');
+let h6 = document.querySelector('#h6');
+let h7 = document.querySelector('#h7');
+let h8 = document.querySelector('#h8');
+let h9 = document.querySelector('#h9');
+let h10 = document.querySelector('#h10');
+let h11 = document.querySelector('#h11');
+let h12 = document.querySelector('#h12');
+let h13 = document.querySelector('#h13');
+let h14 = document.querySelector('#h14');
+let h15 = document.querySelector('#h15');
+let h16 = document.querySelector('#h16');
+let h17 = document.querySelector('#h17');
+let h18 = document.querySelector('#h18');
+
+
 
 
 let btnAdd = document.querySelector('#button');
@@ -59,6 +151,10 @@ let result1 = document.querySelector('#total1');
 let result2 = document.querySelector('#total2');
 let result3 = document.querySelector('#total3');
 let result4 = document.querySelector('#total4');
+let result5 = document.querySelector('#total5');
+let result6 = document.querySelector('#total6');
+let result7 = document.querySelector('#total7');
+let result8 = document.querySelector('#total8');
 
 
 btnAdd.addEventListener('click', () => {
@@ -74,5 +170,16 @@ btnAdd.addEventListener('click', () => {
     let total4 = parseInt(d1.value) + parseInt(d2.value) + parseInt(d3.value) + parseInt(d4.value) + parseInt(d5.value) + parseInt(d6.value) + parseInt(d7.value) + parseInt(d8.value)
         + parseInt(d9.value) + parseInt(d10.value) + parseInt(d11.value) + parseInt(d12.value) + parseInt(d13.value) + parseInt(d14.value) + parseInt(d15.value) + parseInt(d16.value) + parseInt(d17.value) + parseInt(d18.value);
     result4.innerText = total4;
+    let total5 = parseInt(e1.value) + parseInt(e2.value) + parseInt(e3.value) + parseInt(e4.value) + parseInt(e5.value) + parseInt(e6.value) + parseInt(e7.value) + parseInt(e8.value) + parseInt(e9.value) + parseInt(e10.value) + parseInt(e11.value) + parseInt(e12.value) + parseInt(e13.value) + parseInt(e14.value) + parseInt(e15.value) + parseInt(e16.value) + parseInt(e17.value) + parseInt(e18.value);
+    result5.innerText = total5;
+    let total6 = parseInt(f1.value) + parseInt(f2.value) + parseInt(f3.value) + parseInt(f4.value) + parseInt(f5.value) + parseInt(f6.value) + parseInt(f7.value) + parseInt(f8.value) + parseInt(f9.value) + parseInt(f10.value) + parseInt(f11.value) + parseInt(f12.value) + parseInt(f13.value) + parseInt(f14.value) + parseInt(f15.value) + parseInt(f16.value) + parseInt(f17.value) + parseInt(f18.value);
+    result6.innerText = total6;
+    let total7 = parseInt(g1.value) + parseInt(g2.value) + parseInt(g3.value) + parseInt(g4.value) + parseInt(g5.value) + parseInt(g6.value) + parseInt(g7.value) + parseInt(g8.value) + parseInt(g9.value) + parseInt(g10.value) + parseInt(g11.value) + parseInt(g12.value) + parseInt(g13.value) + parseInt(g14.value) + parseInt(g15.value) + parseInt(g16.value) + parseInt(g17.value) + parseInt(g18.value);
+    result7.innerText = total7;
+    let total8 = parseInt(h1.value) + parseInt(h2.value) + parseInt(h3.value) + parseInt(h4.value) + parseInt(h5.value) + parseInt(h6.value) + parseInt(h7.value) + parseInt(h8.value) + parseInt(h9.value) + parseInt(h10.value) + parseInt(h11.value) + parseInt(h12.value) + parseInt(h13.value) + parseInt(h14.value) + parseInt(h15.value) + parseInt(h16.value) + parseInt(h17.value) + parseInt(h18.value);
+    result8.innerText = total8;
+
 
 });
+
+
