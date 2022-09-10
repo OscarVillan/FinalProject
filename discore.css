@@ -240,8 +240,9 @@ div.notice {
 }
 table#mobilejohnsonsc, table#mobiletriadsc, table#mobileguilfordsc {
     display:none;
+    width:fit-content;
 }
-@media (max-width: 325px) {
+@media (max-width: 750px) {
     table#mobileguilfordsc, table#mobiletriadsc, table#mobilejohnsonsc {
         display:block;
     }
