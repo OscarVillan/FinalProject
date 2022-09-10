@@ -4,6 +4,7 @@ body {
     background-color: rgba(123, 189, 250, 0.853);
     margin-left: 5vw;
     margin-right: 5vw;
+    color:white;
 }
 
 p {
@@ -26,10 +27,7 @@ div.logo {
 
 }
 
-img.logo {
-    width: 45vw;
-    margin-left: 35%
-}
+
 
 div.navbar {
     background-color: rgb(66, 167, 243);
@@ -49,6 +47,8 @@ button.nav {
     padding-right: 20px;
     align-items: center;
     font-weight: bolder;
+    border: 5px ridge white;
+    color:white;
 
 
 }
@@ -106,6 +106,14 @@ td {
     margin-left: auto;
     margin-right: auto;
 
+}
+img {
+    border: 10px ridge white;
+}
+img.logo {
+    width: 45vw;
+    margin-left: 21%;
+    border: 0px hidden white;
 }
 
 th,
@@ -242,11 +250,51 @@ table#mobilejohnsonsc, table#mobiletriadsc, table#mobileguilfordsc {
     display:none;
     width:fit-content;
 }
+div.coursemobile {
+    display:none;
+}
 @media (max-width: 750px) {
     table#mobileguilfordsc, table#mobiletriadsc, table#mobilejohnsonsc {
         display:block;
     }
     table#desktopscgc, table#desktopscjs, table#desktopsctp {
         display:none;
+    }
+    body {
+        margin:0%;
+
+    }
+    div.courselist {
+        display: flex;
+        font-size: 5vw;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+
+    
+    }
+    div.coursemobile {
+        display:block;
+    }
+    div.course {
+        display:none;
+    }
+    img.thumbnail {
+        width:60%;
+        margin-left:18%;
+        border: 10px ridge white;
+    }
+    div#courses {
+        display:none;
+    }
+    button.nav {
+        border: 3px ridge white;
+        font-size: .45em;
+        width:fit-content;
+        padding-left: 2px;
+        padding-right:2px;
+        align-content: center;
+        height: fit-content;
+        
     }
 }
