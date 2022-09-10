@@ -253,6 +253,9 @@ table#mobilejohnsonsc, table#mobiletriadsc, table#mobileguilfordsc {
 div.coursemobile {
     display:none;
 }
+table {
+    color:black;
+}
 @media (max-width: 750px) {
     table#mobileguilfordsc, table#mobiletriadsc, table#mobilejohnsonsc {
         display:block;
